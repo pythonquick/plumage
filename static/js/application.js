@@ -57,6 +57,7 @@
     };
 
     // Activate zoom on content images in the main column and add an icon overlay (but ignore icons)
+    /*
     $("#content img:not(.icon)").each(function(){
       // Until we properly generate thumbnails and their links on Pelican's side, we just link an image to itself.
       if ($(this).parents('a').length == 0) {
@@ -91,6 +92,7 @@
       // Add overlay zoom icon
       $(this).mglass({opacity: 1,});
     });
+    */
 
   });
 }(window.jQuery);
